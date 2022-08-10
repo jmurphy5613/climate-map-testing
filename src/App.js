@@ -6,7 +6,8 @@ import { useRef, useState, useEffect } from 'react';
 mapboxgl.accessToken = 'pk.eyJ1IjoibGFuZGF1ZGVzaWduIiwiYSI6ImNrZ3F4dDIyeTBsMXIyenIzd2EwdnBsZTQifQ.MOBff0ku-Z960ubZPr3b6g';
 
 function App() {
-
+ 
+  // initialize map
   const mapContainer = useRef(null);
   const map = useRef(null);
 
